@@ -14,7 +14,7 @@
 (function() {
     for (let a of document.getElementsByTagName("a")) {
         // Only modify relevant <a> tags to avoid breaking sites
-        if (a.hostname === "reddit.com") {
+        if (a.hostname === "www.reddit.com") {
             a.hostname = "i.reddit.com"
         }
     }
