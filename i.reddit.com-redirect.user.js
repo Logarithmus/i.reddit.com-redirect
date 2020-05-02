@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         i.reddit.com redirect
-// @version      0.1.5
+// @version      0.1.6
 // @license      GPL-3.0-only; http://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL  https://github.com/Logarithmus/i.reddit.com-redirect
 // @updateURL    https://openuserjs.org/meta/Logarithmus/i.reddit.com_redirect.meta.js
@@ -12,9 +12,11 @@
 // ==/UserScript==
 
 (function() {
+    if (window.location.hostname === "www.reddit.com") | (window.location.hostname === "reddit.com") {
+        window.location.hostname = "i.reddit.com"
+    }   
     for (let a of document.getElementsByTagName("a")) {
-        // Only modify relevant <a> tags to avoid breaking sites
-        if (a.hostname === "www.reddit.com") {
+        if ( (a.hostname === "www.reddit.com") | (a.hostname === "reddit.com") ) {
             a.hostname = "i.reddit.com"
         }
     }
