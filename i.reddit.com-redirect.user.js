@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         i.reddit.com redirect
+// @name         Redirect to i.reddit.com
 // @version      0.1.6
 // @license      GPL-3.0-only; http://www.gnu.org/licenses/gpl-3.0.txt
 // @homepageURL  https://github.com/Logarithmus/i.reddit.com-redirect
