@@ -1,5 +1,5 @@
 # i.reddit.com-redirect
-Replaces all links to reddit.com with i.reddit.com, super-lightweight version of Reddit for mobile devices
+Replaces all links to reddit.com with i.reddit.com, super-lightweight version of Reddit for mobile devices. I find it extremely useful, because mobile Reddit is a slow crap and it always forces you to install their official &copy; app (most likely for easier data mining).
 
 **Usage**
 1. Install [TamperMonkey](https://tampermonkey.net) extension into your browser.
