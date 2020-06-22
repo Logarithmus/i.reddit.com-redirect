@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 (function() {
-    if (window.location.hostname === "www.reddit.com") | (window.location.hostname === "reddit.com") {
+    if ((window.location.hostname === "www.reddit.com") || (window.location.hostname === "reddit.com")) {
         window.location.hostname = "i.reddit.com"
     }   
     for (let a of document.getElementsByTagName("a")) {
