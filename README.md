@@ -2,8 +2,8 @@
 Replaces all links to reddit.com with i.reddit.com, super-lightweight version of Reddit for mobile devices. I find it extremely useful, because mobile Reddit is a slow crap and it always forces you to install their official &copy; app (most likely for easier data mining). Personally use it with [Kiwi browser](https://github.com/kiwibrowser/src). Basically it's Chrome with extension support and useful features:
 * Disabling Accelerated Mobile Pages (they're often glitchy as hell)
 * Text reflow for desktop versions of sites
-* Force opening links in externatl apps (e. g. YouTube)
-* Grayscale night mode with contrast setting
+* Force opening links in external apps (e. g. YouTube)
+* Greyscale night mode with contrast setting
 * To be continued...
 
 **Usage**
